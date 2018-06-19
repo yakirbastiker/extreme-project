@@ -1,0 +1,39 @@
+footer {
+    background-color: #333;
+    padding: 5rem;
+}
+
+.footer-logo {
+    height: 8rem;
+    width: auto;
+    border-radius: 50%;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+    font-size: 2rem;
+    margin-top: 2rem;
+    
+    & li {
+        display: inline-block;
+        transition: color 0.2s;
+
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+}
+
+
+.footer-copy {
+    font-size: 2rem;
+}
+
+
+//hover on social-links
+
+.fa-facebook-f:hover {color: #3b5998;}
+.fa-instagram:hover {color: #517bb6;}
+.fa-linkedin:hover {color: #007bb5;}
+.fa-tripadvisor:hover {color:#4dc247;}

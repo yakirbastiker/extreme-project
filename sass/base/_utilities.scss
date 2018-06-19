@@ -1,0 +1,56 @@
+.u-center-text { text-align: center !important; }
+
+///////////////////////////////////////
+//margin 
+//////////////////////////////////////
+.u-margin-bottom-big { 
+    margin-bottom: 8rem !important;
+    @include respond(tab-port) {margin-bottom: 5rem !important;}
+}
+
+.u-margin-bottom-small { margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-medium {
+    margin-bottom: 4rem !important;
+    @include respond(tab-port) {
+        margin-bottom: 3rem !important;  
+       }
+}
+
+.u-margin-top-big { margin-top: 8rem !important;}
+.u-margin-top-huge { margin-top: 10rem !important;}
+
+
+
+///////////////////////////////////////
+//heading
+//////////////////////////////////////
+.heading-2 {
+    font-size: 4rem;
+    font-family: 'Pangolin', cursive;
+    text-transform: uppercase;
+
+    
+}
+
+.heading-2-red {
+    color: $color-primary;
+    border-bottom: 2px  solid $color-primary;
+    display: inline-block;
+}
+
+.heading-3 {
+    font-size: 3rem;
+    color: $text-color;
+    font-family: 'Pangolin', cursive;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Pangolin', cursive;
+    
+}
+

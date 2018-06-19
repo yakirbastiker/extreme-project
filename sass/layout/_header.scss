@@ -1,0 +1,42 @@
+.header {
+    height: 90vh;
+    background-image:linear-gradient(to right, rgba($color-primary, .2), rgba($color-primary, .2)),
+     url(../img/extreme-header.jpg);
+     clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    @include respond(tab-port){
+        height: 80vh;
+    }
+
+    @include respond(phone){
+        height: 70vh;
+    }
+
+&__text-box {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    
+}
+
+&__text {
+    
+    color: $color-white;
+}
+
+&__logo{
+    height: 8rem;
+    width: auto;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+}
+
+}

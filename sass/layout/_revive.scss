@@ -1,0 +1,155 @@
+.revives {
+    background-color: $background-color;
+}
+
+.revive {
+
+    height: 40rem;
+    padding: 2rem;
+    position: relative;
+
+    &-1 {
+        background-image:linear-gradient(to right, rgba($color-black, .3), rgba($color-black, .3)),
+         url(../img/revive-1.jpg);
+        background-size: cover;   
+        transition: $transition-rev;
+
+        //hide text
+        &__rating, &__text, &__text-btn {
+            opacity: 0;
+            transition: $transition-rev;  
+        }
+
+        
+        //show text
+       &:hover {
+        background-image:linear-gradient(to right, rgba($color-black, .8), rgba($color-black, .8)),
+         url(../img/revive-1.jpg);
+         background-position: center;
+        .revive-1__rating, .revive-1__text, .revive-1__text-btn { opacity: 1;}
+
+       }    
+    }
+
+    &-2 {
+        background-image:linear-gradient(to right, rgba($color-black, .3), rgba($color-black, .3)),
+                          url(../img/revive-2.jpg);
+        background-size: cover;
+        transition: $transition-rev;
+
+        //hide text
+        &__rating, &__text, &__text-btn {
+            opacity: 0;
+            transition: $transition-rev;  
+        }
+
+        
+        //show text
+       &:hover {
+        background-image:linear-gradient(to right, rgba($color-black, .8), rgba($color-black, .8)),
+         url(../img/revive-2.jpg);
+         background-position: center;
+        .revive-2__rating, .revive-2__text, .revive-2__text-btn { opacity: 1;}
+
+       }
+    }
+
+
+    &-3 {
+        background-image:linear-gradient(to right, rgba($color-black, .3), rgba($color-black, .3)),
+                         url(../img/revive-3.jpg);
+        background-size: cover;
+
+        transition: $transition-rev;
+        
+        //hide text
+        &__rating, &__text, &__text-btn {
+            opacity: 0;
+            transition: $transition-rev;  
+        }
+
+        
+        //show text
+       &:hover {
+        background-image:linear-gradient(to right, rgba($color-black, .8), rgba($color-black, .8)),
+         url(../img/revive-3.jpg);
+         background-position: center;
+        .revive-3__rating, .revive-3__text, .revive-3__text-btn { opacity: 1;}
+
+       }
+    }
+
+    &-4 {
+        background-image:linear-gradient(to right, rgba($color-black, .3), rgba($color-black, .3)),
+                         url(../img/revive-4.jpg);
+        background-size: cover;
+
+        transition: $transition-rev;
+        
+        //hide text
+        &__rating, &__text, &__text-btn {
+            opacity: 0;
+            transition: $transition-rev;  
+        }
+
+        
+        //show text
+       &:hover {
+        background-image:linear-gradient(to right, rgba($color-black, .8), rgba($color-black, .8)),
+         url(../img/revive-4.jpg);
+         background-position: center;
+        .revive-4__rating, .revive-4__text, .revive-4__text-btn { opacity: 1;}
+
+       }
+    }
+
+    
+
+    
+    &__rating {
+        font-size: 2.5rem;
+        color: $color-white;
+        padding-left: 1rem;
+
+        position: absolute;
+        top: 1.5rem;
+        
+        transition: $transition-rev;
+    }
+
+
+    &__text {
+        
+        font-size: 2rem;
+        color: $color-white;
+        text-align: left;
+        
+
+        position: absolute;
+        bottom: 6.5rem;
+        
+        transition: $transition-rev;
+
+    &-btn {
+        position: absolute;
+        bottom: 3.5rem;
+    }
+    }
+ 
+}
+
+
+.icon-star {
+    color: yellow;
+    padding-left: 5px;
+    transition: all .2s;
+
+    &:hover {
+        font-size: 1.02em;
+    }
+}
+
+
+
+
+
